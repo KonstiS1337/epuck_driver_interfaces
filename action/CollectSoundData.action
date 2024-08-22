@@ -2,6 +2,6 @@ int32 recording_time
 ---
 float32 feedback # Feedback over the current running goal (perhaps % of completion or state?)
 ---
-float32[] average_dBs_robot_0 # Average dBs for microphones of robot 0 over recording time
-float32[] average_dBs_robot_1 # Average dBs for microphones of robot 1 over recording time
-float32[] average_dBs_robot_2 # Average dBs for microphones of robot 2 over recording time
+float32[] avg_dbs_robot_0 # Average dBs for microphones of robot 0 over recording time
+float32[] avg_dbs_robot_1 # Average dBs for microphones of robot 1 over recording time
+float32[] avg_dbs_robot_2 # Average dBs for microphones of robot 2 over recording time
