@@ -1,6 +1,6 @@
 float32 angle # Desired angle. Positive angles = left turn -> negative = right turn
 float32 distance # Desired distance to be driven after the given angle has been reached
 ---
-float32 feedback # Feedback over the current running goal (perhaps % of completion or state?)
----
 bool success # Dummy return value
+---
+float32 feedback # Feedback over the current running goal (perhaps % of completion or state?)
