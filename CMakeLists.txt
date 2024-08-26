@@ -15,6 +15,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ChangeRobotState.srv"
   "action/SimpleMovement.action"
   "action/CollectSoundData.action"
+  "msg/RecordActivation.msg"
+  "msg/RecordResult.msg"
 )
 
 
