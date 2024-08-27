@@ -1,1 +1,2 @@
 int64 recording_time
+bool average_over_robot
