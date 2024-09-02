@@ -1,0 +1,5 @@
+float32 robot_distance
+---
+bool dummy
+---
+float32 feedback # Feedback over the current running goal (perhaps % of completion or state?)
