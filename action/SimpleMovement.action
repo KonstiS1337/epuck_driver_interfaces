@@ -4,5 +4,6 @@ float32 angle # Desired angle in rad. Positive angles = left turn -> negative = 
 float32 distance # Desired distance to be driven in m after the given angle has been reached 
 ---
 bool success # Dummy return value
+float32 distance_driven # Only relevant for tof_approach
 ---
 float32 feedback # Feedback over the current running goal (perhaps % of completion or state?)
