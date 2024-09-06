@@ -2,6 +2,8 @@ bool tof_approach # If this is set to true the robot drives forward until the to
 
 float32 angle # Desired angle in rad. Positive angles = left turn -> negative = right turn 
 float32 distance # Desired distance to be driven in m after the given angle has been reached 
+int32 drive_speed # Desired speed used for straight movement in motor steps per min
+int32 angle_speed # Desired speed used for angle movement in motor steps per min
 ---
 bool success # Dummy return value
 float32 distance_driven # Only relevant for tof_approach
